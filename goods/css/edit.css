@@ -1,0 +1,201 @@
+.required {
+  color: red;
+}
+.icheck-box {
+  margin-bottom: 0;
+  line-height: 34px;
+}
+.icheck-box + .icheck-box {
+  margin-left: 20px;
+}
+.icheck-box .r-text {
+  margin-left: 5px;
+}
+.plus-box {
+  line-height: 30px;
+  color: #666;
+  cursor: pointer;
+}
+.plus-box .fa {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.tag .item + .item {
+  margin-top: 20px;
+}
+.upload-box {
+  display: flex;
+  align-items: center;
+}
+.upload-box .up-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  position: relative;
+}
+.upload-box .up-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.upload-box .up-item .del {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  z-index: 9;
+  display: none;
+  cursor: pointer;
+}
+.upload-box .up-item:hover .del {
+  display: inline-block;
+}
+.upload-box .up-trigger {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  color: #999;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.upload-box .up-trigger .fa {
+  margin-top: 28px;
+}
+.upload-box .up-trigger input[type=file] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+.upload-box .up-trigger input[type=file]:disabled {
+  cursor: not-allowed;
+}
+.tab-content {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.purchase-box {
+  background: #f1f1f1;
+}
+.purchase-box .purchase-tab {
+  line-height: 30px;
+}
+.purchase-box .purchase-tab .item {
+  padding: 0 80px;
+  display: inline-block;
+  background: #fff;
+}
+.purchase-box .purchase-tab .item.active {
+  background: #aaa;
+  color: #fff;
+}
+.purchase-box .upload-btn {
+  position: relative;
+  width: 170px;
+  margin: 20px auto;
+}
+.purchase-box .upload-btn .btn {
+  padding: 6px 40px;
+}
+.purchase-box .upload-btn input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+}
+.purchase-box .preview {
+  background: #fff;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+  -webkit-transform: rotate();
+  -moz-transform: rotate();
+  -ms-transform: rotate();
+  -o-transform: rotate();
+  transform: rotate();
+}
+.purchase-box .preview .place-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.purchase-box .preview .preview-con {
+  position: relative;
+  height: 100%;
+}
+.purchase-box .preview .preview-con img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.purchase-box .p-item {
+  padding: 10px 0;
+  border-bottom: 1px dotted #ccc;
+}
+.purchase-box .p-open-close .fa {
+  font-size: 28px;
+  cursor: pointer;
+}
+.purchase-box .write-box {
+  border-top: 1px dotted #ccc;
+  margin-top: 10px;
+}
+.purchase-box .write-box input[type=text] {
+  margin-top: 10px;
+  width: 20%;
+}
+.purchase-box .write-box input[type=text].text {
+  width: 40%;
+}
+.purchase-box .add-purchase-box .p-item.open {
+  background: #fff;
+}
+.purchase-box .p-up-box {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #eee;
+}
+.purchase-box .p-up-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.purchase-box .p-up-box input[type=file] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+.select2 {
+  width: 100%;
+}
